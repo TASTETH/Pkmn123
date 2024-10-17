@@ -3,9 +3,9 @@
 3. 130
 4. PSYCHIC
 5. -
-6. 3/Lost Headbutt/50,4/Superpowered Horns/120
-7. COLORLESS
-8. FIGHTING
+6. 3/LostHeadbutt/50,4/SuperpoweredHorns/120
+7. FIGHTING
+8. -
 9. 1
 10. Lost Origin
 11. F
