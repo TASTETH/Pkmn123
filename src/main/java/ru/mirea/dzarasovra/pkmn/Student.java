@@ -20,13 +20,14 @@ public class Student implements Serializable {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "firstName='" + firstName + '\'' +
-                ", surName='" + surName + '\'' +
-                ", familyName='" + familyName + '\'' +
-                ", group='" + group + '\'' +
+        return "Student{" + '\n' +
+                "firstName='" + firstName + '\'' + ',' + '\n' +
+                "surName='" + surName + '\'' + ',' + '\n' +
+                "familyName='" + familyName + '\'' + ',' + '\n' +
+                "group='" + group + '\'' + '\n' +
                 '}';
     }
+
 
     public String getFirstName() {
         return firstName;
