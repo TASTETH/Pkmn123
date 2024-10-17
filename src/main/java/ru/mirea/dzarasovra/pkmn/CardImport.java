@@ -42,7 +42,7 @@ public class CardImport extends AbstractFileAction{
                 break;
             case "5.":
                 if (parts.length == 2 && !parts[1].isEmpty() && !parts[1].equals("-")) {
-                    Card evolvesCard = importCardFromFile(parts[1]);
+                    Card evolvesCard = importCard(parts[1]);
                     card.setEvolvesFrom(evolvesCard);
                 } else {
                     card.setEvolvesFrom(null);
