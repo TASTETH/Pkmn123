@@ -33,7 +33,6 @@ public class DatabaseServiceImpl implements DatabaseService {
                 databaseProperties.getProperty("database.user"),
                 databaseProperties.getProperty("database.password")
         );
-        System.out.println("Connection is " + (connection.isValid(0) ? "up" : "down"));
     }
 
     @Override
